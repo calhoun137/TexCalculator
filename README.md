@@ -3,7 +3,7 @@ Python has become the defacto language for computational mathematics, and LaTeX 
 
 For complex calculations, Mathematica is often the tool that is used out of neccesity.  But Mathematica is based on a proprietary codebase with it's own custom syntax, and is very expensive for people who are not in academia.
 
-The goal of this project is to create a free, open source calculator that is as powerful as mathematica, but which is based entirely on the LaTeX syntax.
+The goal of this project is to create a free, open source calculator that is as powerful as mathematica, but which uses the LaTeX syntax, and is based entirely on open source python math libraries like scipy and sage.
 
 ## How to run
 for the command line interface:
