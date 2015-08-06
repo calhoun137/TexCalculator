@@ -1,0 +1,165 @@
+html {
+	overflow: hidden;
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+body {
+	background-color: rgb(235, 235, 235);
+	background-size: auto;
+	margin: 0px;
+	overflow: hidden;
+}
+
+a {
+	color:inherit;
+	text-decoration: none;
+ }
+
+#topbar {
+	display: block;
+	background-color: #4679bd;
+	height: 40px;
+	font-size: 13px;
+	color: rgb(255, 255, 255);
+	line-height: 43px;
+	padding-left: 15px;	
+}
+
+.github {
+	float: right;
+	height: inherit;
+	font-size: 14px;
+	padding: 0px 6px;
+	background-color: #4072b4;
+}
+
+.github img {
+	height: inherit;
+}
+
+.span-1 {
+	color: white;
+}
+
+#chart {
+	height: 400px;
+}
+
+.btn {
+	margin-left: 32px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 2px;
+	font-family: arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	width: 111px;
+	height: 29px;
+	padding: 0 8px;
+	text-align: center;
+	color: #000;
+	background: rgba(0,0,0,0);
+}
+
+.tex-btn {
+	display: inline-block;
+	margin-left: 16px;
+	padding-top: 12px;
+	width: 80px;
+	background-color: rgb(186, 224, 255);
+}
+
+.btn:hover {
+	border-color: #346392;	
+}
+
+.btn:active {
+	color: #346392;
+}
+
+.btn-group {
+	border-bottom: 1px solid black;
+}
+
+.btn-group-title {
+	margin-left: 8px; 
+	margin-bottom: 0px; 
+	text-align: left;
+}
+
+#logo {
+	color: rgb(186, 224, 255);
+	cursor: auto;
+	display: inline;
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: -1px;`
+	line-height: 43px;
+	text-decoration: none;
+	white-space: nowrap;
+	height: auto;
+	width: auto;
+}
+
+.container {
+	text-align: center;
+	overflow: hidden;
+	margin: 11px 8px;	
+}
+
+#prompt {
+	min-width: 90%;
+	max-width: 90%;
+	padding: 5px 9px;
+	height: 28px;
+}
+
+#calculator {
+	max-width: 720px;
+}
+
+
+.display-area {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: #fff;
+  border: 1px solid #28aadc;
+  overflow-y: auto;
+  min-height: 60px;
+}
+
+#console {
+	width: 720px;
+}
+
+#query, #result {
+	width: 500px;
+	max-height: 400px;
+}
+
+#query {
+	border-bottom: 0;
+}
+
+#result {
+	border-top: 0;
+}
+
+#query-label {
+	margin-right: 450px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+::-webkit-scrollbar-track {
+    /*display:none;*/
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    background: rgba(0,0,0,0.1); 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.1); 
+    border-radius: 12px;
+}

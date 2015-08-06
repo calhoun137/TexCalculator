@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Online LaTex Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/nvd3.css">
+</head>
+<body>
+	<div id="topbar">
+		<span id="logo"><span class="span-1">TeX</span> Script</span>
+		<a href="#" class="github">
+			<img src="img/github.png">
+			<span class="github">GitHub</span>
+		</a>
+	</div>
+
+	<div class="container">
+		<textarea id="prompt" row"=1" col"=1" placeholder="Type LaTeX command here" type="text"></textarea>
+	</div>
+	
+	<div class="container">
+		<!-- <span id="query-label">Query: </span> -->
+		<span id="query" class="display-area"></span>
+		<span id="result" class="display-area"></span>
+	</div>
+
+	<div class="container">
+		<div id="calculator" class="display-area"></div>
+	</div>
+	
+	<div class="container">
+		<div id="chart" class="display-area">
+			<svg></svg>
+		</div>
+	</div>
+
+	<input id="save" class="btn" type="submit" value="Save" />
+
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/lib/d3.min.js"></script>
+	<script src="js/lib/nv.d3.min.js"></script>
+	<script src="js/console.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
